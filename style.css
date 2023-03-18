@@ -184,3 +184,41 @@ button.integrate-button:hover {
 .create-product-button:hover {
   background-color: #5f4bc5;
 }
+
+
+
+/* SORT AND FILTER */
+
+.filter-section {
+  background-color: #f5f5f5;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.filter-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort-dropdown {
+  margin-right: 20px;
+}
+
+.sort-dropdown select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.filter-checkboxes label {
+  margin-right: 10px;
+}
+
+.filter-checkboxes input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+

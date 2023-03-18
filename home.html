@@ -20,6 +20,27 @@
       </div>
     </header>
     <main>
+      <div class="filter-section">
+        <div class="filter-container">
+          <div class="sort-dropdown">
+            <label for="sort-select">Sort by:</label>
+            <select id="sort-select">
+              <option value="default">Default</option>
+              <option value="price-low-to-high">Price: Low to High</option>
+              <option value="price-high-to-low">Price: High to Low</option>
+              <option value="alphabetical">Alphabetical</option>
+            </select>
+          </div>
+          <div class="filter-checkboxes">
+            <label><input type="checkbox" name="filter-checkbox" value="category1">Shirt</label>
+            <label><input type="checkbox" name="filter-checkbox" value="category2">Dress</label>
+            <label><input type="checkbox" name="filter-checkbox" value="category3">Pant</label>
+          </div>
+        </div>
+      </div>
+      
+
+
       <div class="products-container">
         <!-- Sample product cards -->
         <div class="product-card">
